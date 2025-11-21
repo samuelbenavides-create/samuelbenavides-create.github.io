@@ -53,13 +53,7 @@
             color: #333;
         }
 
-        .card-content p {
-            color: #777;
-            font-size: 16px;
-            margin: 10px 0;
-        }
-
-        .card a {
+        .card-content a {
             display: block;
             text-align: center;
             background-color: #007BFF;
@@ -71,7 +65,7 @@
             transition: background-color 0.3s ease;
         }
 
-        .card a:hover {
+        .card-content a:hover {
             background-color: #0056b3;
         }
 
@@ -79,6 +73,28 @@
             transform: translateY(-5px);
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
         }
+
+        
+        .back-button {
+            display: block;
+            width: 260px;
+            margin: 40px auto;
+            padding: 15px 20px;
+            background-color: #ff6b6b;     
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            text-decoration: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .back-button:hover {
+            background-color: #ff5252;
+            transform: scale(1.03);
+        }
+
     </style>
 </head>
 <body>
@@ -92,7 +108,7 @@
             <img src="https://cdn-blog.superprof.com/blog_co/wp-content/uploads/2020/10/las-matematicas.jpeg" alt="Imagen 1">
             <div class="card-content">
                 <h3>Mathématiques</h3>
-                <a href="https://la.ixl.com/matematicas">Ver más</a>
+                <a href="https://la.ixl.com/matematicas">Voir plus</a>
             </div>
         </div>
 
@@ -100,7 +116,7 @@
             <img src="https://courstechinfo.be/Math/TI/res/Fonctions_Autres.png" alt="Imagen 2">
             <div class="card-content">
                 <h3>Notion des Fonctions</h3>
-                <a href="https://www.maths-et-tiques.fr/telech/19FonctionNotionM.pdf">Ver más</a>
+                <a href="https://www.maths-et-tiques.fr/telech/19FonctionNotionM.pdf">Voir plus</a>
             </div>
         </div>
 
@@ -108,15 +124,12 @@
             <img src="https://i0.wp.com/rapiprofe.com/wp-content/uploads/2024/08/ejercicios-matematicos.jpg?fit=564%2C377&ssl=1" alt="Imagen 3">
             <div class="card-content">
                 <h3>Exercices</h3>
-                <a href="https://www.mathematiquesfaciles.com/les-fonctions_2_74419.htm">Ver más</a>
+                <a href="https://www.mathematiquesfaciles.com/les-fonctions_2_74419.htm">Voir plus</a>
             </div>
         </div>
-        
-        <br><br>
-        <a href="accueil.html">← Revenir a la page principale</a>
     </div>
-       
-    </div>
+
+    <a class="back-button" href="accueil.html">← Revenir à la page principale</a>
 
 </body>
 </html>
